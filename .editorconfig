@@ -1,13 +1,46 @@
-# editorconfig.org
+# For more information about the properties used in
+# this file, please see the EditorConfig documentation:
+# http://editorconfig.org/
 
+##########
+# Key:
+#	[*] = global prefs
+#	[*.js] = matches single file type
+#	[*.{js,py}] = matches multiple file types
+#	[lib/**.js] = matches single file type in specific directory
+#	[{.travis.yml,package.json}] = matches specific files
+#
+#	*	Matches any string of characters, except path separators (/)
+#	**	Matches any string of characters
+#	?	Matches any single character
+#	[name]	Matches any single character in name
+#	[!name]	Matches any single character not in name
+#	{s1,s2,s3}	Matches any of the strings given (separated by commas) (Available since EditorConfig Core 0.11.0)
+#	{num1..num2}	Matches any integer numbers between num1 and num2, where num1 and num2 can be either positive or negative
+##########
+
+## TOPMOST EDITOR CONFIG FILE
 root = true
 
+## GLOBAL ##
 [*]
 charset = utf-8
-indent_size = 4
-indent_style = space
+# unix / linux
+end_of_line = lf
 insert_final_newline = true
+# personal preference
+tab_width = 4
+indent_size = 
+indent_style = tab
 trim_trailing_whitespace = true
 
+## MARKDOWN ##
 [*.md]
 trim_trailing_whitespace = false
+
+## TRAVIS.YML, PACKAGE.JSON ##
+[{.travis.yml,package.json}]
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+indent_size = 2
+indent_style = space
