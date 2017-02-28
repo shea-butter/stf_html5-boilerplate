@@ -30,13 +30,16 @@ end_of_line = lf
 insert_final_newline = true
 # personal preference
 tab_width = 4
-indent_size = 
+indent_size =
 indent_style = tab
 trim_trailing_whitespace = true
 
 ## MARKDOWN ##
 [*.md]
 trim_trailing_whitespace = false
+tab_width = 2
+indent_size = tab
+indent_style = space
 
 ## TRAVIS.YML, PACKAGE.JSON ##
 [{.travis.yml,package.json}]
