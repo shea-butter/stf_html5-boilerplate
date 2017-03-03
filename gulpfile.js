@@ -22,7 +22,7 @@ gulp.task('web-server', function() {
 			baseDir: 'app'
 		},
 	})
-})
+});
 
 // CONCATENATES CSS & JS FILES INTO A SINGLE FILE BY LOOKING FOR A COMMENT THAT STARTS WITH "<!--build:" & ENDS WITH "<!--endbuild-->" IN YOUR HTML
 gulp.task('scripts', function() {

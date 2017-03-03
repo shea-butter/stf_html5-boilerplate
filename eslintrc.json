@@ -1,3 +1,5 @@
+// Go to http://eslint.org/docs/user-guide/configuring#using-configuration-files for examples
+
 {
 	"plugins": [
 		"react"

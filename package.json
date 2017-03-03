@@ -21,6 +21,11 @@
   "homepage": "https://github.com/shea-butter/stf_html5-boilerplate#readme",
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-useref": "^3.1.2"

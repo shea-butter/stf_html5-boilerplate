@@ -1,0 +1,3 @@
+# Go to http://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories for examples
+#
+# /node_modules/* and /bower_components/* ignored by default
