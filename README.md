@@ -99,3 +99,80 @@ From the root of your project directory:
 ```js
 $   npm install --save-dev gulp-useref
 ```
+
+
+### Install gulp-uglify
+
+[gulp-uglify](https://www.npmjs.com/package/gulp-uglify "https://www.npmjs.com/package/gulp-uglify")
+
+Install **gulp-uglify** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev gulp-uglify
+```
+
+
+### Install gulp-if
+
+[gulp-if](https://github.com/robrich/gulp-if "https://github.com/robrich/gulp-if")
+
+Install **gulp-if** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev gulp-if
+```
+
+
+### Install gulp-cssnano
+
+[gulp-cssnano](https://www.npmjs.com/package/gulp-cssnano "https://www.npmjs.com/package/gulp-cssnano")
+
+Install **gulp-cssnano** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev gulp-cssnano
+```
+
+
+### Install gulp-imagemin
+
+[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin "https://www.npmjs.com/package/gulp-imagemino")
+
+Install **gulp-imagemin** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev gulp-imagemin
+```
+
+
+### Install gulp-cache
+
+[gulp-cache](https://www.npmjs.com/package/gulp-cache "https://www.npmjs.com/package/gulp-cache")
+
+Install **gulp-cache** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev gulp-cache
+```
+
+
+### Install del
+
+[del](https://www.npmjs.com/package/del "https://www.npmjs.com/package/del")
+
+Install **del** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev del
+```
+
+
+### Install run-sequence
+
+[run-sequence](https://www.npmjs.com/package/run-sequence "https://www.npmjs.com/package/run-sequence")
+
+Install **run-sequence** in your devDependencies.  
+From the root of your project directory:  
+```js
+$   npm install --save-dev run-sequence
+```

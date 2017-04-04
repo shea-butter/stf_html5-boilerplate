@@ -1,0 +1,60 @@
+	
+// Find a list of options at https://www.npmjs.com/package/js_beautify.
+
+//	Configuration sources provided earlier in this stack will override later ones.
+
+{
+	"eol": "\\n",
+	"end_with_newline": true,
+	"indent_char": " ",
+	"indent_size": 4,
+	"indent_with_tabs": true,
+	"preserve_newlines": true,
+	
+	"html": {
+		"brace_style": "collapse",
+		"max_preserve_newlines": 3,
+		"wrap_line_length": 0,
+		"extra_liners": ["head", "body", "/html"],
+		"indent_body_inner_html": true,
+		"indent_handlebars": false,
+		"indent_head_inner_html": true,
+		"indent_inner_html": true,
+		"indent_scripts": "normal",
+		"wrap_attributes": "auto",
+		"wrap_attributes_indent_size": 4,
+		"unformatted": ["inline", "a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big", "small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"],
+		"content_unformatted": ["pre", "code"],
+		
+		"js": {
+		},
+		
+		"css": {
+		}
+	},
+	
+	"css": {
+		"newline_between_rules": true,
+		"selector_separator_newline": false,
+		"space_around_combinator": true
+	},
+	
+	"js": {
+		"brace_style": "collapse,preserve-inline",
+		"max_preserve_newlines": 3,
+		"wrap_line_length": 0,
+		"break_chained_methods": false,
+		"comma_first": false,
+		"e4x": true,
+		"indent_level": 0,
+		"jslint_happy": false,
+		"keep_array_indentation": true,
+		"keep_function_indentation": true,
+		"operator_position": "before-newline",
+		"space_after_anon_function": true,
+ 		"space_before_conditional": true,
+		"space_in_empty_paren": false,
+		"space_in_paren": false,
+		"unescape_strings": false
+	}
+}

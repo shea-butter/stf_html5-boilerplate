@@ -32,7 +32,7 @@ insert_final_newline = true
 tab_width = 4
 indent_size =
 indent_style = tab
-trim_trailing_whitespace = true
+trim_trailing_whitespace = false
 
 ## MARKDOWN ##
 [*.md]
